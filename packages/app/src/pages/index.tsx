@@ -78,7 +78,7 @@ const HomePage: NextPage = () => {
                 </figure>
                 <div className="card-body p-4">
                   <div className="flex items-center justify-between">
-                    <h2 className="card-title text-lg md:text-xl">
+                    <h2 className="card-title underline decoration-dotted">
                       <Link href={href} target="_blank">
                         {name}
                       </Link>
@@ -86,7 +86,7 @@ const HomePage: NextPage = () => {
                     <Link
                       href={github}
                       target="_blank"
-                      className="text-primary text-sm underline">
+                      className="text-primary underline">
                       GitHub
                     </Link>
                   </div>
