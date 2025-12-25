@@ -117,6 +117,15 @@
     "tags": ["cli", "extension", "android", "macos", "web"]
   },
   {
+    "id": "pi",
+    "href": "https://hieudoanm.github.io/pi",
+    "github": "https://github.com/hieudoanm/pi",
+    "image": "https://raw.githubusercontent.com/hieudoanm/pi/refs/heads/master/images/cover.png",
+    "name": "PI",
+    "category": "saas",
+    "tags": ["cli", "extension", "android", "macos", "web"]
+  },
+  {
     "id": "pomodoro",
     "href": "https://hieudoanm.github.io/pomodoro",
     "github": "https://github.com/hieudoanm/pomodoro",
