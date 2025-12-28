@@ -27,6 +27,15 @@
     "tags": ["cli", "extension", "android", "macos", "web"]
   },
   {
+    "id": "recall",
+    "href": "https://hieudoanm.github.io/recall",
+    "github": "https://github.com/hieudoanm/recall",
+    "image": "https://raw.githubusercontent.com/hieudoanm/recall/refs/heads/master/images/cover.png",
+    "name": "Recall",
+    "category": "game",
+    "tags": ["cli", "extension", "android", "macos", "web"]
+  },
+  {
     "id": "t3",
     "href": "https://hieudoanm.github.io/t3",
     "github": "https://github.com/hieudoanm/t3",

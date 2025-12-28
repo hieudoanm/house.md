@@ -9,6 +9,7 @@ type TagNative = 'cli' | 'linux' | 'macos' | 'windows';
 type Tag = TagBrowser | TagMobile | TagNative;
 
 enum Category {
+  GAME = 'game',
   SAAS = 'saas',
   TEMPLATE = 'template',
 }
@@ -30,13 +31,13 @@ const getInitialTheme = (): 'light' | 'dark' => {
   return (localStorage.getItem('theme') as 'light' | 'dark') ?? 'light';
 };
 
-const featuredApps = (apps as App[]).slice(0, 5);
-
 const HomePage: NextPage = () => {
-  const [{ query }, setState] = useState({ query: '' });
+  const [{ query, category }, setState] = useState({
+    query: '',
+    category: 'all',
+  });
   const [theme, setTheme] = useState<'light' | 'dark'>(getInitialTheme);
 
-  // apply theme synchronously
   if (typeof document !== 'undefined') {
     document.documentElement.setAttribute('data-theme', theme);
   }
@@ -49,9 +50,15 @@ const HomePage: NextPage = () => {
   };
 
   const filteredApps: App[] = (apps as App[]).filter(
-    ({ name = '', tags = [] }) =>
-      name.toLowerCase().includes(query.toLowerCase()) ||
-      tags.some((tag) => tag.toLowerCase().includes(query.toLowerCase()))
+    ({ name = '', tags = [], category: appCategory }) => {
+      const matchesQuery =
+        name.toLowerCase().includes(query.toLowerCase()) ||
+        tags.some((tag) => tag.toLowerCase().includes(query.toLowerCase()));
+
+      const matchesCategory = category === 'all' || appCategory === category;
+
+      return matchesQuery && matchesCategory;
+    }
   );
 
   return (
@@ -64,7 +71,6 @@ const HomePage: NextPage = () => {
           </Link>
 
           <div className="flex items-center gap-4">
-            {/* Theme Switcher */}
             <label className="flex cursor-pointer items-center gap-2 text-sm">
               <span>Light</span>
               <input
@@ -87,16 +93,28 @@ const HomePage: NextPage = () => {
       </header>
 
       <main className="container mx-auto px-4 py-6">
-        {/* Search */}
-        <div className="mb-6">
+        {/* Filters */}
+        <div className="mb-6 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
           <input
             placeholder="Search apps…"
-            className="input input-bordered w-full"
+            className="input input-bordered w-full sm:w-1/2 md:w-2/3"
             value={query}
             onChange={(e: ChangeEvent<HTMLInputElement>) =>
-              setState({ query: e.target.value })
+              setState({ query: e.target.value, category })
             }
           />
+
+          <select
+            className="select select-bordered w-full sm:w-1/2 md:w-1/3"
+            value={category}
+            onChange={(e) => setState({ query, category: e.target.value })}>
+            <option value="all">All Categories</option>
+            {Object.values(Category).map((cat) => (
+              <option key={cat} value={cat}>
+                {cat.charAt(0).toUpperCase() + cat.slice(1)}
+              </option>
+            ))}
+          </select>
         </div>
 
         {/* App List */}
