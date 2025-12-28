@@ -10,6 +10,7 @@ type Tag = TagBrowser | TagMobile | TagNative;
 
 enum Category {
   GAME = 'game',
+  PRODUCTIVITY = 'productivity',
   SAAS = 'saas',
   TEMPLATE = 'template',
 }

@@ -27,6 +27,15 @@
     "tags": ["cli", "extension", "android", "macos", "web"]
   },
   {
+    "id": "recall",
+    "href": "https://hieudoanm.github.io/recall",
+    "github": "https://github.com/hieudoanm/recall",
+    "image": "https://raw.githubusercontent.com/hieudoanm/recall/refs/heads/master/images/cover.png",
+    "name": "Recall",
+    "category": "game",
+    "tags": ["cli", "extension", "android", "macos", "web"]
+  },
+  {
     "id": "t3",
     "href": "https://hieudoanm.github.io/t3",
     "github": "https://github.com/hieudoanm/t3",
@@ -42,6 +51,24 @@
     "image": "https://raw.githubusercontent.com/hieudoanm/towers/refs/heads/master/images/cover.png",
     "name": "Towers",
     "category": "game",
+    "tags": ["cli", "extension", "android", "macos", "web"]
+  },
+  {
+    "id": "pomodoro",
+    "href": "https://hieudoanm.github.io/pomodoro",
+    "github": "https://github.com/hieudoanm/pomodoro",
+    "image": "https://raw.githubusercontent.com/hieudoanm/pomodoro/refs/heads/master/images/cover.png",
+    "name": "Pomodoro",
+    "category": "productivity",
+    "tags": ["cli", "extension", "android", "macos", "web"]
+  },
+  {
+    "id": "today.do",
+    "href": "https://hieudoanm.github.io/today.do",
+    "github": "https://github.com/hieudoanm/today.do",
+    "image": "https://raw.githubusercontent.com/hieudoanm/today.do/refs/heads/master/images/cover.png",
+    "name": "today.do",
+    "category": "productivity",
     "tags": ["cli", "extension", "android", "macos", "web"]
   },
   {
@@ -153,15 +180,6 @@
     "tags": ["cli", "extension", "android", "macos", "web"]
   },
   {
-    "id": "pomodoro",
-    "href": "https://hieudoanm.github.io/pomodoro",
-    "github": "https://github.com/hieudoanm/pomodoro",
-    "image": "https://raw.githubusercontent.com/hieudoanm/pomodoro/refs/heads/master/images/cover.png",
-    "name": "Pomodoro",
-    "category": "saas",
-    "tags": ["cli", "extension", "android", "macos", "web"]
-  },
-  {
     "id": "proxy",
     "href": "https://hieudoanm.github.io/proxy",
     "github": "https://github.com/hieudoanm/proxy",
@@ -239,15 +257,6 @@
     "github": "https://github.com/hieudoanm/tg",
     "image": "https://raw.githubusercontent.com/hieudoanm/tg/refs/heads/master/images/cover.png",
     "name": "TG",
-    "category": "saas",
-    "tags": ["cli", "extension", "android", "macos", "web"]
-  },
-  {
-    "id": "today.do",
-    "href": "https://hieudoanm.github.io/today.do",
-    "github": "https://github.com/hieudoanm/today.do",
-    "image": "https://raw.githubusercontent.com/hieudoanm/today.do/refs/heads/master/images/cover.png",
-    "name": "Today.do",
     "category": "saas",
     "tags": ["cli", "extension", "android", "macos", "web"]
   },

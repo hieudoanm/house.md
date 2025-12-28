@@ -54,6 +54,24 @@
     "tags": ["cli", "extension", "android", "macos", "web"]
   },
   {
+    "id": "pomodoro",
+    "href": "https://hieudoanm.github.io/pomodoro",
+    "github": "https://github.com/hieudoanm/pomodoro",
+    "image": "https://raw.githubusercontent.com/hieudoanm/pomodoro/refs/heads/master/images/cover.png",
+    "name": "Pomodoro",
+    "category": "productivity",
+    "tags": ["cli", "extension", "android", "macos", "web"]
+  },
+  {
+    "id": "today.do",
+    "href": "https://hieudoanm.github.io/today.do",
+    "github": "https://github.com/hieudoanm/today.do",
+    "image": "https://raw.githubusercontent.com/hieudoanm/today.do/refs/heads/master/images/cover.png",
+    "name": "today.do",
+    "category": "productivity",
+    "tags": ["cli", "extension", "android", "macos", "web"]
+  },
+  {
     "id": "chat",
     "href": "https://hieudoanm.github.io/chat",
     "github": "https://github.com/hieudoanm/chat",
@@ -162,15 +180,6 @@
     "tags": ["cli", "extension", "android", "macos", "web"]
   },
   {
-    "id": "pomodoro",
-    "href": "https://hieudoanm.github.io/pomodoro",
-    "github": "https://github.com/hieudoanm/pomodoro",
-    "image": "https://raw.githubusercontent.com/hieudoanm/pomodoro/refs/heads/master/images/cover.png",
-    "name": "Pomodoro",
-    "category": "saas",
-    "tags": ["cli", "extension", "android", "macos", "web"]
-  },
-  {
     "id": "proxy",
     "href": "https://hieudoanm.github.io/proxy",
     "github": "https://github.com/hieudoanm/proxy",
@@ -248,15 +257,6 @@
     "github": "https://github.com/hieudoanm/tg",
     "image": "https://raw.githubusercontent.com/hieudoanm/tg/refs/heads/master/images/cover.png",
     "name": "TG",
-    "category": "saas",
-    "tags": ["cli", "extension", "android", "macos", "web"]
-  },
-  {
-    "id": "today.do",
-    "href": "https://hieudoanm.github.io/today.do",
-    "github": "https://github.com/hieudoanm/today.do",
-    "image": "https://raw.githubusercontent.com/hieudoanm/today.do/refs/heads/master/images/cover.png",
-    "name": "Today.do",
     "category": "saas",
     "tags": ["cli", "extension", "android", "macos", "web"]
   },
