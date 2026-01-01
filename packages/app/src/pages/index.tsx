@@ -1,4 +1,4 @@
-import apps from '@store/data/apps.json';
+import { apps } from '@store/data/apps';
 import { NextPage } from 'next';
 import Link from 'next/link';
 import { ChangeEvent, useState } from 'react';

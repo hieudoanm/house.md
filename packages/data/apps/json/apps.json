@@ -6,7 +6,13 @@
     "image": "https://raw.githubusercontent.com/hieudoanm/chat/refs/heads/master/images/cover.png",
     "name": "Chat",
     "category": "ai",
-    "tags": ["cli", "extension", "android", "macos", "web"]
+    "tags": [
+      "cli",
+      "extension",
+      "android",
+      "macos",
+      "web"
+    ]
   },
   {
     "id": "words",
@@ -15,7 +21,13 @@
     "image": "https://raw.githubusercontent.com/hieudoanm/words/refs/heads/master/images/cover.png",
     "name": "Words",
     "category": "ai",
-    "tags": ["cli", "extension", "android", "macos", "web"]
+    "tags": [
+      "cli",
+      "extension",
+      "android",
+      "macos",
+      "web"
+    ]
   },
   {
     "id": "chess",
@@ -24,7 +36,13 @@
     "image": "https://raw.githubusercontent.com/hieudoanm/chess/refs/heads/master/images/cover.png",
     "name": "Chess",
     "category": "chess",
-    "tags": ["cli", "extension", "android", "macos", "web"]
+    "tags": [
+      "cli",
+      "extension",
+      "android",
+      "macos",
+      "web"
+    ]
   },
   {
     "id": "chess.com",
@@ -33,7 +51,13 @@
     "image": "https://raw.githubusercontent.com/hieudoanm/chess.com/refs/heads/master/images/cover.png",
     "name": "chess.com",
     "category": "chess",
-    "tags": ["cli", "extension", "android", "macos", "web"]
+    "tags": [
+      "cli",
+      "extension",
+      "android",
+      "macos",
+      "web"
+    ]
   },
   {
     "id": "chess.openings",
@@ -42,7 +66,9 @@
     "image": "https://raw.githubusercontent.com/hieudoanm/chess.openings/refs/heads/master/images/cover.png",
     "name": "chess.openings",
     "category": "chess",
-    "tags": ["web"]
+    "tags": [
+      "web"
+    ]
   },
   {
     "id": "shopify",
@@ -51,7 +77,13 @@
     "image": "https://raw.githubusercontent.com/hieudoanm/shopify/refs/heads/master/images/cover.png",
     "name": "Shopify",
     "category": "commerce",
-    "tags": ["cli", "extension", "android", "macos", "web"]
+    "tags": [
+      "cli",
+      "extension",
+      "android",
+      "macos",
+      "web"
+    ]
   },
   {
     "id": "colors",
@@ -60,7 +92,13 @@
     "image": "https://raw.githubusercontent.com/hieudoanm/colors/refs/heads/master/images/cover.png",
     "name": "Colors",
     "category": "design",
-    "tags": ["cli", "extension", "android", "macos", "web"]
+    "tags": [
+      "cli",
+      "extension",
+      "android",
+      "macos",
+      "web"
+    ]
   },
   {
     "id": "converter",
@@ -69,7 +107,13 @@
     "image": "https://raw.githubusercontent.com/hieudoanm/converter/refs/heads/master/images/cover.png",
     "name": "Converter",
     "category": "dev-tools",
-    "tags": ["cli", "extension", "android", "macos", "web"]
+    "tags": [
+      "cli",
+      "extension",
+      "android",
+      "macos",
+      "web"
+    ]
   },
   {
     "id": "gh",
@@ -78,7 +122,13 @@
     "image": "https://raw.githubusercontent.com/hieudoanm/gh/refs/heads/master/images/cover.png",
     "name": "GH",
     "category": "dev-tools",
-    "tags": ["cli", "extension", "android", "macos", "web"]
+    "tags": [
+      "cli",
+      "extension",
+      "android",
+      "macos",
+      "web"
+    ]
   },
   {
     "id": "proxy",
@@ -87,7 +137,13 @@
     "image": "https://raw.githubusercontent.com/hieudoanm/proxy/refs/heads/master/images/cover.png",
     "name": "Proxy",
     "category": "dev-tools",
-    "tags": ["cli", "extension", "android", "macos", "web"]
+    "tags": [
+      "cli",
+      "extension",
+      "android",
+      "macos",
+      "web"
+    ]
   },
   {
     "id": "qrcode",
@@ -96,7 +152,13 @@
     "image": "https://raw.githubusercontent.com/hieudoanm/qrcode/refs/heads/master/images/cover.png",
     "name": "QRCode",
     "category": "dev-tools",
-    "tags": ["cli", "extension", "android", "macos", "web"]
+    "tags": [
+      "cli",
+      "extension",
+      "android",
+      "macos",
+      "web"
+    ]
   },
   {
     "id": "status",
@@ -105,7 +167,13 @@
     "image": "https://raw.githubusercontent.com/hieudoanm/status/refs/heads/master/images/cover.png",
     "name": "Status",
     "category": "dev-tools",
-    "tags": ["cli", "extension", "android", "macos", "web"]
+    "tags": [
+      "cli",
+      "extension",
+      "android",
+      "macos",
+      "web"
+    ]
   },
   {
     "id": "uuid",
@@ -114,7 +182,13 @@
     "image": "https://raw.githubusercontent.com/hieudoanm/uuid/refs/heads/master/images/cover.png",
     "name": "UUID",
     "category": "dev-tools",
-    "tags": ["cli", "extension", "android", "macos", "web"]
+    "tags": [
+      "cli",
+      "extension",
+      "android",
+      "macos",
+      "web"
+    ]
   },
   {
     "id": "yaml",
@@ -123,7 +197,9 @@
     "image": "https://raw.githubusercontent.com/hieudoanm/yaml/refs/heads/master/images/cover.png",
     "name": "YAML",
     "category": "dev-tools",
-    "tags": ["web"]
+    "tags": [
+      "web"
+    ]
   },
   {
     "id": "md",
@@ -132,7 +208,13 @@
     "image": "https://raw.githubusercontent.com/hieudoanm/md/refs/heads/master/images/cover.png",
     "name": "MD",
     "category": "docs",
-    "tags": ["cli", "extension", "android", "macos", "web"]
+    "tags": [
+      "cli",
+      "extension",
+      "android",
+      "macos",
+      "web"
+    ]
   },
   {
     "id": "pitch",
@@ -141,7 +223,9 @@
     "image": "https://raw.githubusercontent.com/hieudoanm/pitch/refs/heads/master/images/cover.png",
     "name": "Pitch",
     "category": "docs",
-    "tags": ["web"]
+    "tags": [
+      "web"
+    ]
   },
   {
     "id": "redact",
@@ -150,7 +234,13 @@
     "image": "https://raw.githubusercontent.com/hieudoanm/redact/refs/heads/master/images/cover.png",
     "name": "Redact",
     "category": "docs",
-    "tags": ["cli", "extension", "android", "macos", "web"]
+    "tags": [
+      "cli",
+      "extension",
+      "android",
+      "macos",
+      "web"
+    ]
   },
   {
     "id": "resume",
@@ -159,7 +249,13 @@
     "image": "https://raw.githubusercontent.com/hieudoanm/resume/refs/heads/master/images/cover.png",
     "name": "Resume",
     "category": "docs",
-    "tags": ["cli", "extension", "android", "macos", "web"]
+    "tags": [
+      "cli",
+      "extension",
+      "android",
+      "macos",
+      "web"
+    ]
   },
   {
     "id": "inflation",
@@ -168,7 +264,13 @@
     "image": "https://raw.githubusercontent.com/hieudoanm/inflation/refs/heads/master/images/cover.png",
     "name": "Inflation",
     "category": "finance",
-    "tags": ["cli", "extension", "android", "macos", "web"]
+    "tags": [
+      "cli",
+      "extension",
+      "android",
+      "macos",
+      "web"
+    ]
   },
   {
     "id": "invoice",
@@ -177,7 +279,13 @@
     "image": "https://raw.githubusercontent.com/hieudoanm/invoice/refs/heads/master/images/cover.png",
     "name": "Invoice",
     "category": "finance",
-    "tags": ["cli", "extension", "android", "macos", "web"]
+    "tags": [
+      "cli",
+      "extension",
+      "android",
+      "macos",
+      "web"
+    ]
   },
   {
     "id": "tax",
@@ -186,7 +294,13 @@
     "image": "https://raw.githubusercontent.com/hieudoanm/tax/refs/heads/master/images/cover.png",
     "name": "Tax",
     "category": "finance",
-    "tags": ["cli", "extension", "android", "macos", "web"]
+    "tags": [
+      "cli",
+      "extension",
+      "android",
+      "macos",
+      "web"
+    ]
   },
   {
     "id": "palindrome",
@@ -195,7 +309,9 @@
     "image": "https://raw.githubusercontent.com/hieudoanm/palindrome/refs/heads/master/images/cover.png",
     "name": "Palindrome",
     "category": "fun",
-    "tags": ["web"]
+    "tags": [
+      "web"
+    ]
   },
   {
     "id": "pi",
@@ -204,7 +320,13 @@
     "image": "https://raw.githubusercontent.com/hieudoanm/pi/refs/heads/master/images/cover.png",
     "name": "PI",
     "category": "fun",
-    "tags": ["cli", "extension", "android", "macos", "web"]
+    "tags": [
+      "cli",
+      "extension",
+      "android",
+      "macos",
+      "web"
+    ]
   },
   {
     "id": "blackjack",
@@ -213,7 +335,13 @@
     "image": "https://raw.githubusercontent.com/hieudoanm/blackjack/refs/heads/master/images/cover.png",
     "name": "Blackjack",
     "category": "game",
-    "tags": ["cli", "extension", "android", "macos", "web"]
+    "tags": [
+      "cli",
+      "extension",
+      "android",
+      "macos",
+      "web"
+    ]
   },
   {
     "id": "quiz",
@@ -222,7 +350,13 @@
     "image": "https://raw.githubusercontent.com/hieudoanm/quiz/refs/heads/master/images/cover.png",
     "name": "Quiz",
     "category": "game",
-    "tags": ["cli", "extension", "android", "macos", "web"]
+    "tags": [
+      "cli",
+      "extension",
+      "android",
+      "macos",
+      "web"
+    ]
   },
   {
     "id": "recall",
@@ -231,7 +365,13 @@
     "image": "https://raw.githubusercontent.com/hieudoanm/recall/refs/heads/master/images/cover.png",
     "name": "Recall",
     "category": "game",
-    "tags": ["cli", "extension", "android", "macos", "web"]
+    "tags": [
+      "cli",
+      "extension",
+      "android",
+      "macos",
+      "web"
+    ]
   },
   {
     "id": "t3",
@@ -240,7 +380,13 @@
     "image": "https://raw.githubusercontent.com/hieudoanm/t3/refs/heads/master/images/cover.png",
     "name": "T3",
     "category": "game",
-    "tags": ["cli", "extension", "android", "macos", "web"]
+    "tags": [
+      "cli",
+      "extension",
+      "android",
+      "macos",
+      "web"
+    ]
   },
   {
     "id": "towers",
@@ -249,7 +395,24 @@
     "image": "https://raw.githubusercontent.com/hieudoanm/towers/refs/heads/master/images/cover.png",
     "name": "Towers",
     "category": "game",
-    "tags": ["cli", "extension", "android", "macos", "web"]
+    "tags": [
+      "cli",
+      "extension",
+      "android",
+      "macos",
+      "web"
+    ]
+  },
+  {
+    "id": "calendar",
+    "href": "https://hieudoanm.github.io/calendar",
+    "github": "https://github.com/hieudoanm/calendar",
+    "image": "https://raw.githubusercontent.com/hieudoanm/calendar/refs/heads/master/images/cover.png",
+    "name": "Lunar",
+    "category": "productivity",
+    "tags": [
+      "web"
+    ]
   },
   {
     "id": "doi",
@@ -258,16 +421,13 @@
     "image": "https://raw.githubusercontent.com/hieudoanm/doi/refs/heads/master/images/cover.png",
     "name": "DOI",
     "category": "productivity",
-    "tags": ["cli", "extension", "android", "macos", "web"]
-  },
-  {
-    "id": "lunar",
-    "href": "https://hieudoanm.github.io/lunar",
-    "github": "https://github.com/hieudoanm/lunar",
-    "image": "https://raw.githubusercontent.com/hieudoanm/lunar/refs/heads/master/images/cover.png",
-    "name": "Lunar",
-    "category": "productivity",
-    "tags": ["web"]
+    "tags": [
+      "cli",
+      "extension",
+      "android",
+      "macos",
+      "web"
+    ]
   },
   {
     "id": "maps",
@@ -276,7 +436,13 @@
     "image": "https://raw.githubusercontent.com/hieudoanm/maps/refs/heads/master/images/cover.png",
     "name": "Maps",
     "category": "productivity",
-    "tags": ["cli", "extension", "android", "macos", "web"]
+    "tags": [
+      "cli",
+      "extension",
+      "android",
+      "macos",
+      "web"
+    ]
   },
   {
     "id": "pomodoro",
@@ -285,7 +451,13 @@
     "image": "https://raw.githubusercontent.com/hieudoanm/pomodoro/refs/heads/master/images/cover.png",
     "name": "Pomodoro",
     "category": "productivity",
-    "tags": ["cli", "extension", "android", "macos", "web"]
+    "tags": [
+      "cli",
+      "extension",
+      "android",
+      "macos",
+      "web"
+    ]
   },
   {
     "id": "today.do",
@@ -294,7 +466,13 @@
     "image": "https://raw.githubusercontent.com/hieudoanm/today.do/refs/heads/master/images/cover.png",
     "name": "today.do",
     "category": "productivity",
-    "tags": ["cli", "extension", "android", "macos", "web"]
+    "tags": [
+      "cli",
+      "extension",
+      "android",
+      "macos",
+      "web"
+    ]
   },
   {
     "id": "ig",
@@ -303,7 +481,13 @@
     "image": "https://raw.githubusercontent.com/hieudoanm/ig/refs/heads/master/images/cover.png",
     "name": "IG",
     "category": "social",
-    "tags": ["cli", "extension", "android", "macos", "web"]
+    "tags": [
+      "cli",
+      "extension",
+      "android",
+      "macos",
+      "web"
+    ]
   },
   {
     "id": "tg",
@@ -312,7 +496,13 @@
     "image": "https://raw.githubusercontent.com/hieudoanm/tg/refs/heads/master/images/cover.png",
     "name": "TG",
     "category": "social",
-    "tags": ["cli", "extension", "android", "macos", "web"]
+    "tags": [
+      "cli",
+      "extension",
+      "android",
+      "macos",
+      "web"
+    ]
   },
   {
     "id": "ytb",
@@ -321,7 +511,13 @@
     "image": "https://raw.githubusercontent.com/hieudoanm/ytb/refs/heads/master/images/cover.png",
     "name": "YTB",
     "category": "social",
-    "tags": ["cli", "extension", "android", "macos", "web"]
+    "tags": [
+      "cli",
+      "extension",
+      "android",
+      "macos",
+      "web"
+    ]
   },
   {
     "id": "macosx",
@@ -330,7 +526,13 @@
     "image": "https://raw.githubusercontent.com/hieudoanm/macosx/refs/heads/master/images/cover.png",
     "name": "macOSX",
     "category": "utilities",
-    "tags": ["cli", "extension", "android", "macos", "web"]
+    "tags": [
+      "cli",
+      "extension",
+      "android",
+      "macos",
+      "web"
+    ]
   },
   {
     "id": "atomic",
@@ -339,7 +541,9 @@
     "image": "https://raw.githubusercontent.com/hieudoanm/atomic/refs/heads/master/images/cover.png",
     "name": "Atomic",
     "category": "template",
-    "tags": ["web"]
+    "tags": [
+      "web"
+    ]
   },
   {
     "id": "micro-saas",
@@ -348,6 +552,8 @@
     "image": "https://raw.githubusercontent.com/hieudoanm/micro-saas/refs/heads/master/images/cover.png",
     "name": "Micro SaaS",
     "category": "template",
-    "tags": ["web"]
+    "tags": [
+      "web"
+    ]
   }
 ]
