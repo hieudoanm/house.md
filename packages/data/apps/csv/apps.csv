@@ -1,5 +1,5 @@
 "category","id","href","github","image","name","tags"
-"ai","chat","https://hieudoanm.github.io/chat","https://github.com/hieudoanm/chat","https://raw.githubusercontent.com/hieudoanm/chat/refs/heads/master/images/cover.png","Chat","cli,extension,android,macos,web"
+"ai","promptly","https://hieudoanm.github.io/promptly","https://github.com/hieudoanm/promptly","https://raw.githubusercontent.com/hieudoanm/promptly/refs/heads/master/images/cover.png","Promptly","cli,extension,android,macos,web"
 "ai","words","https://hieudoanm.github.io/words","https://github.com/hieudoanm/words","https://raw.githubusercontent.com/hieudoanm/words/refs/heads/master/images/cover.png","Words","cli,extension,android,macos,web"
 "chess","chess","https://hieudoanm.github.io/chess","https://github.com/hieudoanm/chess","https://raw.githubusercontent.com/hieudoanm/chess/refs/heads/master/images/cover.png","Chess","cli,extension,android,macos,web"
 chess,chess.com,https://hieudoanm.github.io/chess.com,https://github.com/hieudoanm/chess.com,https://raw.githubusercontent.com/hieudoanm/chess.com/refs/heads/master/images/cover.png,chess.com,"cli,extension,android,macos,web"
