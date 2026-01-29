@@ -48,11 +48,11 @@ export const Filters = ({
   onReset: () => void;
 }) => {
   return (
-    <div className="bg-base-100 mb-6 rounded-xl p-4 shadow-sm">
+    <div className="bg-base-200/50 border-base-300/30 ring-base-100/10 mb-6 rounded-xl border p-4 shadow-sm ring-1 backdrop-blur-xl backdrop-saturate-150">
       <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
         <input
           id="app-search"
-          className="input input-bordered flex-1"
+          className="input input-bordered bg-base-100/60 flex-1 backdrop-blur"
           placeholder="Search apps… (⌘ / Ctrl + K)"
           value={query}
           onChange={(e: ChangeEvent<HTMLInputElement>) =>
@@ -61,7 +61,7 @@ export const Filters = ({
         />
 
         <select
-          className="select select-bordered sm:w-48"
+          className="select select-bordered bg-base-100/60 backdrop-blur sm:w-48"
           value={category}
           onChange={(e) => onCategoryChange(e.target.value)}>
           <option value="all">All categories</option>
@@ -73,7 +73,7 @@ export const Filters = ({
         </select>
 
         <select
-          className="select select-bordered sm:w-40"
+          className="select select-bordered bg-base-100/60 backdrop-blur sm:w-40"
           value={sort}
           onChange={(e) => onSortChange(e.target.value as SortMode)}>
           <option value="az">A → Z</option>
@@ -82,7 +82,9 @@ export const Filters = ({
         </select>
 
         {(query || category !== 'all') && (
-          <button className="btn btn-outline btn-sm" onClick={onReset}>
+          <button
+            className="btn btn-ghost btn-sm text-base-content/70 hover:text-base-content"
+            onClick={onReset}>
             Reset
           </button>
         )}

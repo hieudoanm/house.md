@@ -15,46 +15,66 @@ export const AppCard: FC<AppCardProps> = memo(({ app, featured }) => {
       tabIndex={0}
       aria-label={`${name} app`}
       className={[
-        'group card bg-base-100 shadow-sm transition',
-        'hover:-translate-y-0.5 hover:shadow-lg',
-        'focus:ring-primary focus:ring-2 focus:outline-none',
-        featured && 'ring-primary/40 ring-2',
+        'group relative transition-all duration-300',
+        // luxury glass surface
+        'from-base-200/55 via-base-200/35 to-base-300/25 bg-gradient-to-br',
+        'backdrop-blur-2xl backdrop-saturate-150',
+        'border-base-300/40 border',
+        'rounded-2xl',
+        'shadow-[0_8px_30px_rgba(0,0,0,0.25)]',
+        // motion
+        'hover:-translate-y-1',
+        'hover:shadow-[0_16px_40px_rgba(0,0,0,0.35)]',
+        // focus
+        'focus:ring-base-content/30 focus:ring-2 focus:outline-none',
+        // featured
+        featured && 'ring-primary/30 ring-2',
       ]
         .filter(Boolean)
         .join(' ')}>
-      {/* Body */}
-      <div className="card-body p-4">
-        <div className="flex gap-4">
+      {/* Glass rim + sheen */}
+      <div className="pointer-events-none absolute inset-0 rounded-2xl ring-1 ring-white/5" />
+      <div className="pointer-events-none absolute inset-0 rounded-2xl bg-gradient-to-t from-black/20 to-white/5 opacity-60" />
+
+      <div className="relative z-10 p-4">
+        <div className="flex items-start gap-4">
           {/* Icon */}
           <div
             aria-hidden
-            className="bg-primary text-primary-content flex h-16 w-16 shrink-0 items-center justify-center rounded-xl text-xl font-bold">
+            className="from-base-300/60 to-base-300/30 text-base-content flex h-14 w-14 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br text-lg font-semibold shadow-inner ring-1 ring-white/10">
             {name.at(0)?.toUpperCase() ?? 'A'}
           </div>
 
-          {/* Content */}
-          <div className="flex min-w-0 flex-1 flex-col">
-            <h2 className="truncate leading-tight font-semibold">{name}</h2>
+          {/* Main content */}
+          <div className="flex min-w-0 flex-1 items-start justify-between gap-4">
+            {/* Name + badge (vertical) */}
+            <div className="min-w-0">
+              <h2 className="text-base-content/90 truncate text-[15px] font-semibold tracking-tight">
+                {name}
+              </h2>
+              <span className="bg-base-300/30 text-base-content/60 mt-1 inline-block rounded-full px-2 py-0.5 text-[11px] tracking-wide uppercase">
+                {category}
+              </span>
+            </div>
 
-            <span className="badge badge-primary badge-sm mt-1 w-fit">
-              {category}
-            </span>
+            {/* Actions (vertical) */}
+            <div className="flex shrink-0 flex-col gap-2">
+              <Link
+                href={href}
+                target="_blank"
+                className="btn btn-xs bg-base-content text-base-100 hover:bg-base-content/90 shadow-md">
+                Open
+              </Link>
+
+              <Link
+                href={github}
+                target="_blank"
+                className="btn btn-xs btn-ghost bg-base-100/40 text-base-content/70 hover:text-base-content ring-1 ring-white/10 backdrop-blur-md">
+                GitHub
+              </Link>
+            </div>
           </div>
         </div>
-      </div>
-
-      {/* Footer (actions bottom-right) */}
-      <div className="card-footer group-hover:border-base-300 flex justify-end gap-2 border-t border-transparent px-4 pt-3 pb-4">
-        <Link
-          href={github}
-          target="_blank"
-          className="btn btn-sm btn-ghost opacity-70">
-          GitHub
-        </Link>
-
-        <Link href={href} target="_blank" className="btn btn-sm btn-primary">
-          Open
-        </Link>
       </div>
     </article>
   );
