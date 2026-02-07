@@ -1,4 +1,4 @@
-import { ErrorTemplate } from '@store/templates/ErrorTemplate';
+import { ErrorTemplate } from '@house.md/templates/ErrorTemplate';
 import { NextPage } from 'next';
 
 const messages = [

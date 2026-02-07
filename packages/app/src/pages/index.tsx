@@ -1,72 +1,61 @@
-import { AppCard } from '@store/components/AppCard';
-import { EmptyState } from '@store/components/EmptyState';
-import {
-  filterAndSortApps,
-  Filters,
-  SortMode,
-} from '@store/components/Filters';
-import { Footer } from '@store/components/Footer';
-import { Hero } from '@store/components/Hero';
-import { Navbar } from '@store/components/Navbar';
-import { ResultStats } from '@store/components/ResultStats';
-import { App, apps } from '@store/data/apps';
-import { useKeyboardSearch } from '@store/hooks/use-keyboard-search';
-import { useTheme } from '@store/hooks/use-theme';
 import { NextPage } from 'next';
-import { useMemo, useState } from 'react';
-
-/* -------------------------------------------------------------------------- */
-/* Utils & hooks                                                               */
-/* -------------------------------------------------------------------------- */
-
-const categories: string[] = [...new Set(apps.map((a) => a.category))];
+import { useState } from 'react';
 
 const HomePage: NextPage = () => {
-  const [{ query, category }, setState] = useState({
-    query: '',
-    category: 'all',
-  });
-
-  const [sort, setSort] = useState<SortMode>('az');
-  const { theme, toggleTheme } = useTheme();
-
-  useKeyboardSearch('app-search');
-
-  const filteredApps = useMemo(
-    () => filterAndSortApps(apps as App[], query, category, sort),
-    [query, category, sort]
-  );
+  const [name, setName] = useState('House');
+  const letters = name.trim().toUpperCase().split('');
 
   return (
-    <div className="bg-base-200 min-h-screen">
-      <Navbar theme={theme} onToggleTheme={toggleTheme} />
+    <div className="flex min-h-screen w-full flex-col gap-y-4 md:gap-y-8">
+      {/* NAV */}
+      <nav className="bg-base-100 shadow">
+        <div className="container mx-auto px-4 py-3 md:px-8 md:py-4">
+          <div className="flex flex-col items-stretch justify-between gap-3 md:flex-row md:items-center md:gap-6">
+            <h1 className="text-lg font-bold whitespace-nowrap md:text-2xl">
+              House, M.D.
+            </h1>
 
-      <main className="container mx-auto px-4 py-6">
-        <Hero apps={apps} categories={categories} />
-
-        <Filters
-          query={query}
-          category={category}
-          sort={sort}
-          categories={categories}
-          onQueryChange={(q) => setState({ query: q, category })}
-          onCategoryChange={(c) => setState({ query, category: c })}
-          onSortChange={setSort}
-          onReset={() => setState({ query: '', category: 'all' })}
-        />
-
-        <ResultStats shown={filteredApps.length} total={apps.length} />
-
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-          {filteredApps.length === 0 ? (
-            <EmptyState />
-          ) : (
-            filteredApps.map((app) => <AppCard key={app.id} app={app} />)
-          )}
+            <div className="flex w-full items-center gap-2 md:w-auto md:gap-4">
+              <input
+                type="text"
+                placeholder="e.g. Gregory"
+                className="input input-bordered w-full md:w-64"
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+              />
+              <button
+                type="button"
+                className="btn btn-primary whitespace-nowrap">
+                Capture
+              </button>
+            </div>
+          </div>
         </div>
-      </main>
+      </nav>
 
-      <Footer />
+      {/* DISPLAY */}
+      <main className="flex grow items-center justify-center overflow-x-auto px-4">
+        {letters.length > 0 && (
+          <div className="relative flex items-center">
+            {letters.map((letter, index) => {
+              const isFirst = index === 0;
+
+              return (
+                <div
+                  key={`${letter}-${index}`}
+                  className={`border-base-content flex items-center justify-center ${isFirst ? 'border-4' : 'border-b-4'} min-text-[28px] h-[14vw] max-h-[110px] min-h-[48px] w-[14vw] max-w-[110px] min-w-[48px] text-[8vw] md:text-[5vw] lg:text-[64px] ${isFirst ? 'mr-2 md:mr-4' : ''} `}>
+                  {letter}
+                </div>
+              );
+            })}
+
+            {/* M.D. */}
+            <div className="absolute -right-12 -bottom-2 text-sm font-bold tracking-[0.3em]">
+              M.D.
+            </div>
+          </div>
+        )}
+      </main>
     </div>
   );
 };
