@@ -14,6 +14,9 @@ const App: FC<AppProps> = ({ Component, pageProps }: AppProps) => {
     <>
       <Head>
         <title>House, M.D.</title>
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <div className={robotoCondensed.className}>
         <Component {...pageProps} />
