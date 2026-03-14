@@ -1,8 +1,8 @@
 {
   "$schema": "../node_modules/@tauri-apps/cli/config.schema.json",
-  "productName": "store",
+  "productName": "House, M.D.",
   "version": "0.0.1",
-  "identifier": "io.github.hieudoanm.store",
+  "identifier": "io.github.hieudoanm.house.md",
   "build": {
     "frontendDist": "../../../docs",
     "devUrl": "http://localhost:3000",
@@ -12,7 +12,7 @@
   "app": {
     "windows": [
       {
-        "title": "@store/app",
+        "title": "House, M.D.",
         "width": 800,
         "height": 600,
         "resizable": true,
