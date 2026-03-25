@@ -1,7 +1,7 @@
 import '@house.md/styles/globals.css';
+import { HeadTemplate } from '../templates/HeadTemplate';
 import type { AppProps } from 'next/app';
 import { Roboto_Condensed } from 'next/font/google';
-import Head from 'next/head';
 import { FC } from 'react';
 
 const robotoCondensed = Roboto_Condensed({
@@ -12,12 +12,7 @@ const robotoCondensed = Roboto_Condensed({
 const App: FC<AppProps> = ({ Component, pageProps }: AppProps) => {
   return (
     <>
-      <Head>
-        <title>House, M.D.</title>
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="manifest" href="/manifest.json" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-      </Head>
+      <HeadTemplate basic={{ title: 'House, M.D.' }} />
       <div className={robotoCondensed.className}>
         <Component {...pageProps} />
       </div>
