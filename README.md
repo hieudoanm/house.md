@@ -39,6 +39,9 @@ House Md is a focused project in this monorepo that delivers a practical tool wi
 - 💻 [CLI](https://github.com/hieudoanm/house.md/releases)
 - 📱 [Mobile](https://github.com/hieudoanm/house.md/releases)
 - 🖥️ [Desktop](https://github.com/hieudoanm/house.md/releases)
+  - 🍎 [MacOS](https://github.com/hieudoanm/house.md/releases/tag/macos-latest)
+  - 🐧 [Ubuntu](https://github.com/hieudoanm/house.md/releases/tag/ubuntu-latest)
+  - 🪟 [Windows](https://github.com/hieudoanm/house.md/releases/tag/windows-latest)
 
 ## 🛠️ 5. Development Stack
 
