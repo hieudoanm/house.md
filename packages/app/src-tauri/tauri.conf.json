@@ -1,6 +1,6 @@
 {
   "$schema": "../node_modules/@tauri-apps/cli/config.schema.json",
-  "productName": "House, M.D.",
+  "productName": "house_md",
   "version": "0.0.1",
   "identifier": "io.github.hieudoanm.house.md",
   "build": {
